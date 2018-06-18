@@ -109,7 +109,7 @@ function M.new( instance, options )
     --instance.anchorY = 0.95
 
     -- Keyboard control
-    local max, acceleration, left, right, flip = 375, 10000, 0, 0, 0
+    local max, acceleration, left, right, flip = 375, 15000, 0, 0, 0
     local lastEvent = {}
     local function key( event )
         local phase = event.phase
