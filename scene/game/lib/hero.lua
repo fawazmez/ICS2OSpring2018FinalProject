@@ -1,3 +1,4 @@
+
 -- Module/class for platfomer hero
 
 -- Use this as a template to build an in-game hero 
@@ -132,7 +133,7 @@ function M.new( instance, options )
                 instance:setSequence( "slide" )
                 instance:play()
                 instance:applyLinearImpulse( 2000, 0, instance.x, instance.y )
-            end    
+            end 
             if not ( left == 0 and right == 0 ) and not instance.jumping then
                 instance:setSequence( "walk" )
                 instance:play()
@@ -194,26 +195,24 @@ function M.new( instance, options )
                     other:die()
                 elseif not other.isDead then
                     -- They attacked us
-                    if other.type == "godBlob" then 
-                        -- Lose 3 life
-                        for timesDamaged=1,3 do
-                            self:hurt()
-                        end
                     if other.type == "strongBlob" then 
                         -- Lose 2 life if its a strong blob
                         for timesDamaged=1,2 do
                             self:hurt()
                         end
+                    elseif other.type == "godBlob" then 
+                        -- Lose 3 life
+                        for timesDamaged=1,3 do
+                            self:hurt()
+                        end 
                     elseif other.type == "jackOLanternEnemy" then
                         -- lose 3 life
                         for timesDamaged=1,3 do
                             self:hurt()
                         end
-
-
                     else    
                         self:hurt()
-                    end    
+                    end     
                 end
             elseif self.jumping and vy > 0 and not self.isDead then
                 -- Landed after jumping
