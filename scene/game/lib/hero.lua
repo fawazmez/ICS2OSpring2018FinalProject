@@ -12,6 +12,7 @@ local M = {}
 
 function M.new( instance, options )
 	-- Get the current scene
+
 	local scene = composer.getScene( composer.getSceneName( "current" ) )
 	local sounds = scene.sounds
 
