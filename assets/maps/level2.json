@@ -1411,30 +1411,6 @@
                  "y":1406.06
                 }, 
                 {
-                 "gid":20,
-                 "height":182.667,
-                 "id":461,
-                 "name":"",
-                 "rotation":90,
-                 "type":"",
-                 "visible":true,
-                 "width":832.667,
-                 "x":3840.24,
-                 "y":1408.18
-                }, 
-                {
-                 "gid":20,
-                 "height":188,
-                 "id":465,
-                 "name":"",
-                 "rotation":-90,
-                 "type":"",
-                 "visible":true,
-                 "width":836,
-                 "x":4095.03,
-                 "y":2272.85
-                }, 
-                {
                  "gid":64,
                  "height":200.727,
                  "id":466,
@@ -10684,7 +10660,7 @@
                 }, 
                 {
                  "gid":84,
-                 "height":712,
+                 "height":426.666666666667,
                  "id":1416,
                  "name":"",
                  "rotation":0,
@@ -10792,13 +10768,13 @@
                  "gid":4,
                  "height":332,
                  "id":923,
-                 "name":"enemy",
+                 "name":"",
                  "rotation":0,
                  "type":"enemy",
                  "visible":true,
                  "width":129,
-                 "x":3452.83,
-                 "y":1535.09
+                 "x":3456,
+                 "y":1536
                 }, 
                 {
                  "gid":4,
@@ -10863,6 +10839,18 @@
                  "width":101,
                  "x":2383.33,
                  "y":1204.55
+                }, 
+                {
+                 "gid":20,
+                 "height":1026.667,
+                 "id":461,
+                 "name":"",
+                 "rotation":-180,
+                 "type":"enterSubLevel2",
+                 "visible":true,
+                 "width":328.667,
+                 "x":4136.08881818182,
+                 "y":1458.99818181818
                 }],
          "opacity":1,
          "type":"objectgroup",
