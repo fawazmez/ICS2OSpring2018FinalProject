@@ -5755,30 +5755,6 @@
                  "width":128,
                  "x":5888,
                  "y":3072
-                }, 
-                {
-                 "gid":55,
-                 "height":213,
-                 "id":1968,
-                 "name":"gem",
-                 "rotation":0,
-                 "type":"gem",
-                 "visible":true,
-                 "width":213,
-                 "x":4352,
-                 "y":3072
-                }, 
-                {
-                 "gid":55,
-                 "height":213,
-                 "id":1969,
-                 "name":"gem",
-                 "rotation":0,
-                 "type":"gem",
-                 "visible":true,
-                 "width":213,
-                 "x":4864,
-                 "y":3072
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -6669,18 +6645,6 @@
                  "width":128,
                  "x":6400,
                  "y":3200
-                }, 
-                {
-                 "gid":55,
-                 "height":213,
-                 "id":2087,
-                 "name":"gem",
-                 "rotation":0,
-                 "type":"gem",
-                 "visible":true,
-                 "width":213,
-                 "x":7752,
-                 "y":3064
                 }, 
                 {
                  "gid":25,
@@ -8328,7 +8292,7 @@
                 }, 
                 {
                  "gid":38,
-                 "height":2336,
+                 "height":256,
                  "id":2167,
                  "name":"spikes",
                  "rotation":0,
@@ -8336,7 +8300,7 @@
                  "visible":true,
                  "width":20992,
                  "x":-1664,
-                 "y":5888
+                 "y":3808
                 }, 
                 {
                  "gid":53,
@@ -9341,16 +9305,76 @@
                  "y":2560
                 }, 
                 {
-                 "gid":55,
-                 "height":213,
-                 "id":2241,
+                 "gid":56,
+                 "height":172,
+                 "id":2242,
                  "name":"",
                  "rotation":0,
-                 "type":"goldCoin",
+                 "type":"gem",
                  "visible":true,
-                 "width":213,
-                 "x":1430.66666666667,
-                 "y":2757.33333333333
+                 "width":172,
+                 "x":1422,
+                 "y":2762
+                }, 
+                {
+                 "gid":56,
+                 "height":172,
+                 "id":2243,
+                 "name":"",
+                 "rotation":0,
+                 "type":"gem",
+                 "visible":true,
+                 "width":172,
+                 "x":4140,
+                 "y":3020
+                }, 
+                {
+                 "gid":56,
+                 "height":172,
+                 "id":2244,
+                 "name":"",
+                 "rotation":0,
+                 "type":"gem",
+                 "visible":true,
+                 "width":172,
+                 "x":4890,
+                 "y":3026
+                }, 
+                {
+                 "gid":56,
+                 "height":172,
+                 "id":2245,
+                 "name":"",
+                 "rotation":0,
+                 "type":"gem",
+                 "visible":true,
+                 "width":172,
+                 "x":7828,
+                 "y":3040
+                }, 
+                {
+                 "gid":38,
+                 "height":256,
+                 "id":2246,
+                 "name":"spikes",
+                 "rotation":0,
+                 "type":"spikes",
+                 "visible":true,
+                 "width":20992,
+                 "x":-1760,
+                 "y":4000
+                }, 
+                {
+                 "gid":38,
+                 "height":256,
+                 "id":2247,
+                 "name":"spikes",
+                 "rotation":0,
+                 "type":"spikes",
+                 "visible":true,
+                 "width":20992,
+                 "x":-1440,
+                 "y":3744
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -9358,7 +9382,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":2242,
+ "nextobjectid":2248,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.2",

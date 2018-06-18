@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="120" height="25" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="2242">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="120" height="25" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="2248">
  <tileset firstgid="1" name="Background" tilewidth="1024" tileheight="768" tilecount="2" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="18">
@@ -1776,8 +1776,6 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="1968" name="gem" type="gem" gid="55" x="4352" y="3072" width="213" height="213"/>
-  <object id="1969" name="gem" type="gem" gid="55" x="4864" y="3072" width="213" height="213"/>
  </objectgroup>
  <objectgroup name="forground">
   <object id="474" type="blob" gid="65" x="2266.03" y="2415.39" width="121" height="191"/>
@@ -1995,7 +1993,6 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="2087" name="gem" type="gem" gid="55" x="7752" y="3064" width="213" height="213"/>
   <object id="2089" gid="25" x="9088" y="3072" width="128" height="128">
    <properties>
     <property name="bodyType" value="static"/>
@@ -2433,7 +2430,7 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="2167" name="spikes" type="spikes" gid="38" x="-1664" y="5888" width="20992" height="2336"/>
+  <object id="2167" name="spikes" type="spikes" gid="38" x="-1664" y="3808" width="20992" height="256"/>
   <object id="2168" name="exit" type="exit" gid="53" x="15156" y="2652" width="188" height="238"/>
   <object id="2170" gid="39" x="12544" y="2432" width="399.62" height="195.303">
    <properties>
@@ -2705,6 +2702,11 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="2241" type="goldCoin" gid="55" x="1430.67" y="2757.33" width="213" height="213"/>
+  <object id="2242" type="gem" gid="56" x="1422" y="2762" width="172" height="172"/>
+  <object id="2243" type="gem" gid="56" x="4140" y="3020" width="172" height="172"/>
+  <object id="2244" type="gem" gid="56" x="4890" y="3026" width="172" height="172"/>
+  <object id="2245" type="gem" gid="56" x="7828" y="3040" width="172" height="172"/>
+  <object id="2246" name="spikes" type="spikes" gid="38" x="-1760" y="4000" width="20992" height="256"/>
+  <object id="2247" name="spikes" type="spikes" gid="38" x="-1440" y="3744" width="20992" height="256"/>
  </objectgroup>
 </map>
