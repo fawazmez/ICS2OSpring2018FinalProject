@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="30" height="120" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#234282" nextobjectid="1260">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="30" height="120" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#234282" nextobjectid="1262">
  <tileset firstgid="1" name="winter" tilewidth="511" tileheight="280" tilecount="28" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -1727,7 +1727,7 @@
   <object id="1086" gid="1" x="135.5" y="9001.5" width="137" height="137"/>
   <object id="1087" gid="1" x="67.5" y="8871.5" width="137" height="137"/>
   <object id="1089" gid="5" x="378" y="9000" width="116.617" height="126"/>
-  <object id="1092" gid="25" x="2304" y="11008" width="16.5487" height="12.0237">
+  <object id="1092" type="spikes" gid="25" x="2304" y="11008" width="16.5487" height="12.0237">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" type="float" value="1"/>
@@ -2372,7 +2372,13 @@
    </properties>
   </object>
   <object id="1258" name="spike" type="spikes" gid="69" x="3584" y="11520" width="133.022" height="74.2121" rotation="-90"/>
-  <object id="1259" name="spike" type="spikes" gid="69" x="3328" y="12160" width="133.022" height="74.2121"/>
+  <object id="1260" name="spike" type="spikes" gid="69" x="3328" y="12160" width="133.022" height="74.2121"/>
+  <object id="1261" gid="25" x="2048" y="10624" width="31.2165" height="20.8946">
+   <properties>
+    <property name="bodyType" value="static"/>
+    <property name="friction" type="float" value="1"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="forground">
   <object id="325" name="hero" type="hero" gid="7" x="8" y="14880" width="317.99" height="346"/>
