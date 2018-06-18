@@ -189,7 +189,7 @@ function M.new( instance, options )
         local y1, y2 = self.y + 50, other.y - ( other.type == "enemy" and 25 or other.height/2 )
         local vx, vy = self:getLinearVelocity()
         if phase == "began" then
-            if not self.isDead and ( other.type == "blob" or other.type == "enemy" or other.type == "godBlob" or other.type == "jackOLanternEnemy" or other.type == "strongBlob" ) then
+            if not self.isDead and ( other.type == "blob" or other.type == "enemy" or other.type == "strongBlob" ) then
                 if y1 < y2 then
                     -- Hopped on top of an enemy
                     other:die()
@@ -200,19 +200,9 @@ function M.new( instance, options )
                         for timesDamaged=1,2 do
                             self:hurt()
                         end
-                    elseif other.type == "godBlob" then 
-                        -- Lose 3 life
-                        for timesDamaged=1,3 do
-                            self:hurt()
-                        end 
-                    elseif other.type == "jackOLanternEnemy" then
-                        -- lose 3 life
-                        for timesDamaged=1,3 do
-                            self:hurt()
-                        end
                     else    
                         self:hurt()
-                    end     
+                    end 
                 end
             elseif self.jumping and vy > 0 and not self.isDead then
                 -- Landed after jumping
