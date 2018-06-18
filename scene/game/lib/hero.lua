@@ -205,14 +205,8 @@ function M.new( instance, options )
                     else    
                         self:hurt()
                     end 
-                    if other.type == "godBlob" then 
-                        -- Lose 3 life
-                        for timesDamaged=1,3 do
-                            self:hurt()
-                        end
-                    else    
-                        self:hurt()
-                    end    
+                    
+                       
                 end
             elseif self.jumping and vy > 0 and not self.isDead then
                 -- Landed after jumping
