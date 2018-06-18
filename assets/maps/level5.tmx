@@ -14399,7 +14399,6 @@
   <object id="4808" name="coinlevel5" type="coinlevel5" gid="120" x="9345" y="838" width="142" height="148"/>
   <object id="4809" name="coinlevel5" type="coinlevel5" gid="120" x="15701" y="-306" width="142" height="148"/>
   <object id="4810" name="coinlevel5" type="coinlevel5" gid="120" x="18681" y="166" width="142" height="148"/>
-  <object id="4812" name="blobLevel5" type="blobLevel5" gid="105" x="2830" y="1271" width="260" height="134"/>
   <object id="4815" name="enterLevel5Sub" type="enterLevel5Sub" gid="53" x="23950" y="1415" width="460" height="654"/>
  </objectgroup>
 </map>

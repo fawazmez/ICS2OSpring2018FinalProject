@@ -57843,18 +57843,6 @@
                  "y":166
                 }, 
                 {
-                 "gid":105,
-                 "height":134,
-                 "id":4812,
-                 "name":"blobLevel5",
-                 "rotation":0,
-                 "type":"blobLevel5",
-                 "visible":true,
-                 "width":260,
-                 "x":2830,
-                 "y":1271
-                }, 
-                {
                  "gid":53,
                  "height":654,
                  "id":4815,
