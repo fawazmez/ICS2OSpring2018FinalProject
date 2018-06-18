@@ -10660,7 +10660,7 @@
                 }, 
                 {
                  "gid":84,
-                 "height":712,
+                 "height":426.666666666667,
                  "id":1416,
                  "name":"",
                  "rotation":0,
@@ -10768,13 +10768,13 @@
                  "gid":4,
                  "height":332,
                  "id":923,
-                 "name":"enemy",
+                 "name":"",
                  "rotation":0,
                  "type":"enemy",
                  "visible":true,
                  "width":129,
-                 "x":3452.83,
-                 "y":1535.09
+                 "x":3456,
+                 "y":1536
                 }, 
                 {
                  "gid":4,
