@@ -7202,9 +7202,17 @@
                 }, 
                 {
                  "gid":40,
-                 "height":101,
+                 "height":0,
                  "id":1154,
                  "name":"",
+                 "properties":
+                    {
+                     "bodyType":"static"
+                    },
+                 "propertytypes":
+                    {
+                     "bodyType":"string"
+                    },
                  "rotation":90,
                  "type":"",
                  "visible":true,

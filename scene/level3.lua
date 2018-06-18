@@ -78,6 +78,7 @@ function scene:create( event )
 		},
 		hit = audio.loadSound( sndDir .. "hit.mp3" ),
 		coin = audio.loadSound( sndDir .. "coin.mp3" ),
+		gem = audio.loadSound( sndDir .. "coin.mp3" ),
 	}
 
 	-- Start physics before loading map
@@ -122,6 +123,10 @@ function scene:create( event )
 	shield.y = display.screenOriginY + shield.contentHeight / 2 + 16
 	hero.shield = shield
 
+	local gem = display.newImageRect( sceneGroup, "scene/game/img/gem.png", 64, 64 )
+	gem.x = display.contentWidth - gem.contentWidth / 2 - 24
+	gem.y = display.screenOriginY + gem.contentHeight / 2 + 20
+	
 	-- Touch the sheilds to go back to the main...
 	function shield:tap(event)
 		fx.fadeOut( function()
