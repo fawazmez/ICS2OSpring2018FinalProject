@@ -1101,7 +1101,7 @@
   <object id="1151" gid="39" x="12544" y="1792" width="128" height="128"/>
   <object id="1152" gid="39" x="12544" y="1664" width="128" height="128"/>
   <object id="1153" gid="39" x="12544" y="1536" width="128" height="128"/>
-  <object id="1154" gid="40" x="11904" y="128" width="1038" rotation="90">
+  <object id="1154" type="spikes" gid="40" x="11904" y="128" width="1038" rotation="90">
    <properties>
     <property name="bodyType" value="static"/>
    </properties>
