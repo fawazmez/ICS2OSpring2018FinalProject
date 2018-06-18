@@ -70,7 +70,7 @@ function scene:create( event )
 		sword = audio.loadSound( sndDir .. "sword.mp3" ),
 		squish = audio.loadSound( sndDir .. "squish.mp3" ),
 		slime = audio.loadSound( sndDir .. "slime.mp3" ),
-		wind = audio.loadSound( sndDir .. "loops/spacewind.mp3" ),
+		wind = audio.loadSound( sndDir .. "loops/level6BGM.mp3" ),
 		door = audio.loadSound( sndDir .. "door.mp3" ),
 		hurt = {
 			audio.loadSound( sndDir .. "hurt1.mp3" ),
@@ -78,6 +78,7 @@ function scene:create( event )
 		},
 		hit = audio.loadSound( sndDir .. "hit.mp3" ),
 		coin = audio.loadSound( sndDir .. "coin.mp3" ),
+		level6Coin = audio.loadSound( sndDir .. "level6Coin.wav" ),
 	}
 
 	-- Start physics before loading map
@@ -101,7 +102,7 @@ function scene:create( event )
 	hero.filename = filename
 
 	-- Find our enemies and other items
-	map:extend( "blob", "enemy", "exit", "coin", "spikes" )
+	map:extend( "blob", "enemy", "exit", "coin", "spikes","level6Coin" )
 
 	-- Find the parallax layer
 	parallax = map:findLayer( "parallax" )
