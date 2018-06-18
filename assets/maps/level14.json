@@ -7508,7 +7508,7 @@
                      "friction":"float"
                     },
                  "rotation":0,
-                 "type":"",
+                 "type":"spikes",
                  "visible":true,
                  "width":16.5487456187065,
                  "x":2304,
@@ -9935,7 +9935,7 @@
                 {
                  "gid":69,
                  "height":74.2121,
-                 "id":1259,
+                 "id":1260,
                  "name":"spike",
                  "rotation":0,
                  "type":"spikes",
@@ -9943,6 +9943,28 @@
                  "width":133.022,
                  "x":3328,
                  "y":12160
+                }, 
+                {
+                 "gid":25,
+                 "height":20.8946,
+                 "id":1261,
+                 "name":"",
+                 "properties":
+                    {
+                     "bodyType":"static",
+                     "friction":1
+                    },
+                 "propertytypes":
+                    {
+                     "bodyType":"string",
+                     "friction":"float"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":31.2165,
+                 "x":2048,
+                 "y":10624
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -9972,7 +9994,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1260,
+ "nextobjectid":1262,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.2",
