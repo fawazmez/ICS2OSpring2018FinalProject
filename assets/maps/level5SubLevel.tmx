@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="120" height="25" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#7b4720" nextobjectid="6359">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="120" height="25" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#7b4720" nextobjectid="6359">
  <tileset firstgid="1" name="Background" tilewidth="1024" tileheight="768" tilecount="2" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="18">
@@ -337,7 +337,6 @@
   </tile>
  </tileset>
  <objectgroup name="parallax">
-  <object id="4793" gid="20" x="30343.2" y="3247.63" width="12502.9" height="8710.37"/>
   <object id="4116" gid="25" x="0" y="3200" width="3376" height="3168"/>
   <object id="4814" gid="25" x="3328" y="3200" width="3376" height="3168"/>
   <object id="4815" gid="25" x="6656" y="3200" width="3376" height="3168"/>
@@ -6597,7 +6596,7 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="6243" gid="22" x="0" y="1904" height="5600">
+  <object id="6243" gid="22" x="0" y="1904" width="128" height="5600">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" type="float" value="1"/>
@@ -6915,7 +6914,7 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="6358" gid="22" x="16376" y="1920" height="2960">
+  <object id="6358" gid="22" x="16376" y="1920" width="128" height="2960">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" type="float" value="1"/>

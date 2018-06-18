@@ -27,8 +27,8 @@
                  "type":"",
                  "visible":true,
                  "width":12502.9,
-                 "x":-7090.24,
-                 "y":3190.37
+                 "x":-7078.24,
+                 "y":3186.37
                 }, 
                 {
                  "gid":20,
@@ -65,6 +65,18 @@
                  "width":12502.9,
                  "x":17829.8,
                  "y":3232
+                }, 
+                {
+                 "gid":53,
+                 "height":238,
+                 "id":4814,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":188,
+                 "x":150,
+                 "y":1923
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -57735,54 +57747,6 @@
                  "y":256
                 }, 
                 {
-                 "gid":54,
-                 "height":304,
-                 "id":4795,
-                 "name":"spikes",
-                 "rotation":0,
-                 "type":"spikes",
-                 "visible":true,
-                 "width":688,
-                 "x":23808,
-                 "y":1424
-                }, 
-                {
-                 "gid":54,
-                 "height":304,
-                 "id":4798,
-                 "name":"spikes",
-                 "rotation":0,
-                 "type":"spikes",
-                 "visible":true,
-                 "width":688,
-                 "x":23808,
-                 "y":1424
-                }, 
-                {
-                 "gid":54,
-                 "height":304,
-                 "id":4799,
-                 "name":"spikes",
-                 "rotation":0,
-                 "type":"spikes",
-                 "visible":true,
-                 "width":688,
-                 "x":23808,
-                 "y":1424
-                }, 
-                {
-                 "gid":54,
-                 "height":304,
-                 "id":4800,
-                 "name":"spikes",
-                 "rotation":0,
-                 "type":"spikes",
-                 "visible":true,
-                 "width":688,
-                 "x":23808,
-                 "y":1424
-                }, 
-                {
                  "gid":120,
                  "height":148,
                  "id":4801,
@@ -57889,6 +57853,18 @@
                  "width":260,
                  "x":2830,
                  "y":1271
+                }, 
+                {
+                 "gid":53,
+                 "height":654,
+                 "id":4815,
+                 "name":"enterLevel5Sub",
+                 "rotation":0,
+                 "type":"enterLevel5Sub",
+                 "visible":true,
+                 "width":460,
+                 "x":23950,
+                 "y":1415
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -57896,10 +57872,10 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":4814,
+ "nextobjectid":4816,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.1.5",
+ "tiledversion":"1.1.2",
  "tileheight":128,
  "tilesets":[
         {

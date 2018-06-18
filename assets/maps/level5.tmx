@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="120" height="25" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#ddf8ff" nextobjectid="4814">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="120" height="25" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#ddf8ff" nextobjectid="4816">
  <tileset firstgid="1" name="Background" tilewidth="1024" tileheight="768" tilecount="2" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="18">
@@ -338,10 +338,11 @@
  </tileset>
  <objectgroup name="parallax">
   <object id="4790" gid="20" x="-19593.2" y="3190.37" width="12502.9" height="8710.37"/>
-  <object id="4791" gid="20" x="-7090.24" y="3190.37" width="12502.9" height="8710.37"/>
+  <object id="4791" gid="20" x="-7078.24" y="3186.37" width="12502.9" height="8710.37"/>
   <object id="4792" gid="20" x="5376" y="3215.63" width="12502.9" height="8710.37"/>
   <object id="4793" gid="20" x="30343.2" y="3247.63" width="12502.9" height="8710.37"/>
   <object id="4794" gid="20" x="17829.8" y="3232" width="12502.9" height="8710.37"/>
+  <object id="4814" gid="53" x="150" y="1923" width="188" height="238"/>
  </objectgroup>
  <objectgroup name="middleground">
   <object id="326" gid="32" x="0" y="3200" width="128" height="128">
@@ -14390,10 +14391,6 @@
   <object id="4771" name="coin" type="coin" gid="55" x="22860.8" y="-209.558" width="168.333" height="161.722"/>
   <object id="4772" name="coin" type="coin" gid="55" x="22860.8" y="-209.558" width="168.333" height="161.722"/>
   <object id="4780" name="exit" type="exit" gid="53" x="23328" y="256" width="412" height="510"/>
-  <object id="4795" name="spikes" type="spikes" gid="54" x="23808" y="1424" width="688" height="304"/>
-  <object id="4798" name="spikes" type="spikes" gid="54" x="23808" y="1424" width="688" height="304"/>
-  <object id="4799" name="spikes" type="spikes" gid="54" x="23808" y="1424" width="688" height="304"/>
-  <object id="4800" name="spikes" type="spikes" gid="54" x="23808" y="1424" width="688" height="304"/>
   <object id="4801" name="coinlevel5" type="coinlevel5" gid="120" x="1321" y="1690" width="142" height="148"/>
   <object id="4802" name="coinlevel5" type="coinlevel5" gid="120" x="1321" y="1690" width="142" height="148"/>
   <object id="4805" name="coinlevel5" type="coinlevel5" gid="120" x="3069" y="1034" width="142" height="148"/>
@@ -14403,5 +14400,6 @@
   <object id="4809" name="coinlevel5" type="coinlevel5" gid="120" x="15701" y="-306" width="142" height="148"/>
   <object id="4810" name="coinlevel5" type="coinlevel5" gid="120" x="18681" y="166" width="142" height="148"/>
   <object id="4812" name="blobLevel5" type="blobLevel5" gid="105" x="2830" y="1271" width="260" height="134"/>
+  <object id="4815" name="enterLevel5Sub" type="enterLevel5Sub" gid="53" x="23950" y="1415" width="460" height="654"/>
  </objectgroup>
 </map>
