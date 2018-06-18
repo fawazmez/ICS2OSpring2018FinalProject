@@ -15154,7 +15154,7 @@
                  "id":1842,
                  "name":"enemy",
                  "rotation":0,
-                 "type":"enemy",
+                 "type":"enemyCowboy",
                  "visible":true,
                  "width":120,
                  "x":3340,
