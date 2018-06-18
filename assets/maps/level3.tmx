@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="120" height="25" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="2256">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="120" height="25" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="2259">
  <tileset firstgid="1" name="Background" tilewidth="1024" tileheight="768" tilecount="2" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="18">
@@ -2702,10 +2702,7 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="2242" type="gem" gid="56" x="1422" y="2762" width="172" height="172"/>
-  <object id="2243" type="gem" gid="56" x="4140" y="3020" width="172" height="172"/>
-  <object id="2244" type="gem" gid="56" x="4890" y="3026" width="172" height="172"/>
-  <object id="2245" type="gem" gid="56" x="7828" y="3040" width="172" height="172"/>
+  <object id="2242" type="coin" gid="56" x="1422" y="2762" width="172" height="172"/>
   <object id="2246" name="spikes" type="spikes" gid="38" x="-1760" y="4000" width="20992" height="256"/>
   <object id="2247" name="spikes" type="spikes" gid="38" x="-1440" y="3744" width="20992" height="256"/>
   <object id="2248" type="blob" gid="65" x="4123.5" y="2216.5" width="121" height="191"/>
@@ -2715,5 +2712,8 @@
   <object id="2252" type="spikes" gid="54" x="8536" y="3136" width="128" height="80"/>
   <object id="2254" type="spikes" gid="54" x="7296" y="3072" width="128" height="80"/>
   <object id="2255" type="spikes" gid="54" x="8249.6" y="2304" width="268.8" height="168"/>
+  <object id="2256" type="coin" gid="56" x="4246" y="3018" width="172" height="172"/>
+  <object id="2257" type="coin" gid="56" x="4950" y="3010" width="172" height="172"/>
+  <object id="2258" type="coin" gid="56" x="7786" y="3026" width="172" height="172"/>
  </objectgroup>
 </map>
