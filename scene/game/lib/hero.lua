@@ -1,4 +1,3 @@
-
 -- Module/class for platfomer hero
 
 -- Use this as a template to build an in-game hero 
@@ -37,6 +36,10 @@ function M.new( instance, options )
 
     local sheetOptionsThrow = require("assets.spritesheets.ninjaBoy.ninjaBoyThrow")
     local sheetThrowingNinja = graphics.newImageSheet( "./assets/spritesheets/ninjaBoy/ninjaBoyThrow.png", sheetOptionsThrow:getSheet() )
+
+    local sheetOptionsSlide = require("assets.spritesheets.ninjaBoy.ninjaBoySlide")
+    local sheetSlidingNinja = graphics.newImageSheet( "./assets/spritesheets/ninjaBoy/ninjaBoySlide.png", sheetOptionsSlide:getSheet() )
+
 
     -- sequences table
     local sequence_data = {
@@ -80,7 +83,15 @@ function M.new( instance, options )
             time = 1000,
             loopCount = 1,
             sheet = sheetJumpingNinja
-        }
+        },
+        {
+            name = "slide",
+            start = 1,
+            count = 10,
+            time = 1000,
+            loopCount = 0,
+            sheet = sheetSlidingNinja
+        },
 
     }
 
@@ -116,6 +127,12 @@ function M.new( instance, options )
 				instance:jump()
 				instance:play()
 			end
+			if "down" == name or "s" == name then 
+				flip = 0.133
+				instance:setSequence( "slide" )
+				instance:play()
+				instance:applyLinearImpulse( 2000, 0, instance.x, instance.y )
+			end	
 			if not ( left == 0 and right == 0 ) and not instance.jumping then
 				instance:setSequence( "walk" )
 				instance:play()
@@ -123,6 +140,10 @@ function M.new( instance, options )
 		elseif phase == "up" then
 			if "left" == name or "a" == name then left = 0 end
 			if "right" == name or "d" == name then right = 0 end
+			if "down" == name or "s" == name then 
+				right = 0 
+				left = 0 
+			end
 			if left == 0 and right == 0 and not instance.jumping then
 				instance:setSequence("idle")
 				instance:play()
@@ -167,13 +188,20 @@ function M.new( instance, options )
 		local y1, y2 = self.y + 50, other.y - ( other.type == "enemy" and 25 or other.height/2 )
 		local vx, vy = self:getLinearVelocity()
 		if phase == "began" then
-			if not self.isDead and ( other.type == "blob" or other.type == "enemy" ) then
+			if not self.isDead and ( other.type == "blob" or other.type == "enemy" or other.type == "strongBlob" ) then
 				if y1 < y2 then
 					-- Hopped on top of an enemy
 					other:die()
 				elseif not other.isDead then
 					-- They attacked us
-					self:hurt()
+					if other.type == "strongBlob" then 
+						-- Lose 2 life if its a strong blob
+						for timesDamaged=1,2 do
+							self:hurt()
+						end
+					else	
+						self:hurt()
+					end	
 				end
 			elseif self.jumping and vy > 0 and not self.isDead then
 				-- Landed after jumping
