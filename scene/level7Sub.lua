@@ -200,7 +200,6 @@ function scene:destroy( event )
 		audio.dispose( v )
 		self.sounds[s] = nil
 	end
-	print(hola)
 end
 
 scene:addEventListener( "create" )
