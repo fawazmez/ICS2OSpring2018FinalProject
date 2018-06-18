@@ -1,4 +1,3 @@
-
 -- Include modules/libraries
 local composer = require( "composer" )
 local fx = require( "com.ponywolf.ponyfx" )
