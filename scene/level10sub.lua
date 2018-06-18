@@ -91,7 +91,7 @@ function scene:create( event )
 	-- Load our map
 
 	--local filename = event.params.map or "scene/game/map/sandbox.json"
-	local filename = "./assets/maps/level10.json"
+	local filename = "./assets/maps/level10Sub.json"
 	local mapData = json.decodeFile( system.pathForFile( filename, system.ResourceDirectory ) )
 	--map = tiled.new( mapData, "scene/game/map" )
 	map = tiled.new( mapData, "assets/maps" )
@@ -104,7 +104,7 @@ function scene:create( event )
 	hero.filename = filename
 
 	-- Find our enemies and other items
-	map:extend( "blob", "enemy", "exit", "coin", "spikes", "coin3", "coin4", "enterlevel10" )
+	map:extend( "blob", "enemy", "exit", "coin", "spikes", "coin3", "coin4", "exitlevel10" )
 
 	-- Find the parallax layer
 	parallax = map:findLayer( "parallax" )
