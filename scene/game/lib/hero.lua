@@ -109,7 +109,8 @@ function M.new( instance, options )
     --instance.anchorY = 0.95
 
     -- Keyboard control
-    local max, acceleration, left, right, flip = 375, 10000, 0, 0, 0
+
+    local max, acceleration, left, right, flip = 375, 15000, 0, 0, 0
     local lastEvent = {}
     local function key( event )
         local phase = event.phase
@@ -132,7 +133,8 @@ function M.new( instance, options )
                 instance:setSequence( "slide" )
                 instance:play()
                 instance:applyLinearImpulse( 2000, 0, instance.x, instance.y )
-            end    
+            end 
+      
             if not ( left == 0 and right == 0 ) and not instance.jumping then
                 instance:setSequence( "walk" )
                 instance:play()
@@ -188,28 +190,23 @@ function M.new( instance, options )
         local y1, y2 = self.y + 50, other.y - ( other.type == "enemy" and 25 or other.height/2 )
         local vx, vy = self:getLinearVelocity()
         if phase == "began" then
-            if not self.isDead and ( other.type == "blob" or other.type == "enemy" or other.type == "godBlob" or other.type == "jackOLanternEnemy" ) then
+
+            if not self.isDead and ( other.type == "blob" or other.type == "enemy" or other.type == "godBlob" or other.type == "strongBlob" ) then
                 if y1 < y2 then
                     -- Hopped on top of an enemy
                     other:die()
                 elseif not other.isDead then
                     -- They attacked us
-                    if other.type == "godBlob" then 
-                        -- Lose 3 life
-                        for timesDamaged=1,3 do
+                    if other.type == "strongBlob" then 
+                        -- Lose 2 life if its a strong blob
+                        for timesDamaged=1,2 do
                             self:hurt()
                         end
-                    
-                    elseif other.type == "jackOLanternEnemy" then
-                        -- lose 3 life
-                        for timesDamaged=1,3 do
-                            self:hurt()
-                        end
-
-
                     else    
                         self:hurt()
-                    end    
+                    end 
+                    
+                       
                 end
             elseif self.jumping and vy > 0 and not self.isDead then
                 -- Landed after jumping
