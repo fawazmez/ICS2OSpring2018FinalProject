@@ -14,9 +14,12 @@ settings = {
 
 	android =
 	{
+		--<strong>usesExpansionFile = true</strong>,
 		usesPermissions =
 		{
-			--"android.permission.INTERNET",
+			"android.permission.INTERNET",
+			"com.android.vending.CHECK_LICENSE",
+			"android.permission.WRITE_EXTERNAL_STORAGE",
 		},
 	},
     

@@ -60,6 +60,13 @@ application = {
 		-- You should not specify this unless you absolutely require higher precision and see no performance impact
 		--shaderPrecision = "highp",  -- Acceptable values are "highp", "mediump", or "lowp"
 	},
+	--license =
+	--{
+	--	google =
+	--	{
+	--		key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl1DmjpNFMiK3kNZqqVrRQ6jWL65wUp8LIkpfGRJt/ClwMSupuuL/t5xBRs7v7VtoJ1YNi3F8z2B6TM1WvLWNzo89zpOjUopxhA0fOkdE+WmMt5q1UsgcbKZfBDrSF5YTsrhHU+SZHS4gsFaFVKnVGpMvtIML1O3fYQNP8td+5Z6hXcwIaBSjwbgvdNSpJuHuID/NJWX2bjnR9U+XfYI9QuANCzKKEH/I9C7Xrampr4vUX7Fl7eGFgHhQgkrhz+KZf0MyZGfnymiBCbRLysZO6ysd9q/ZxKiBBmrJo8Uf7gFMqYxFT29YwFhE5GzpkgIzwvgDSTmtpENhD8rmAnfpgwIDAQAB"
+	--	},
+	--},
 
 	-- This global setting triggers pop-up error messages while running an app in the Corona Simulator
 	-- If you don't like this feature or if it doesn't fit your workflow, you can turn it off
