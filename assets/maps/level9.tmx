@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="300" height="25" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#6d7d81" nextobjectid="2151">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="300" height="25" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#6d7d81" nextobjectid="2152">
  <properties>
   <property name="bodyType" value=""/>
  </properties>
@@ -1874,7 +1874,7 @@
   <object id="1338" name="spikes" type="spikes" gid="22" x="30080" y="768" width="256" height="256" rotation="180"/>
   <object id="1339" name="spikes" type="spikes" gid="22" x="30336" y="768" width="256" height="256" rotation="180"/>
   <object id="1346" name="spikes" type="spikes" gid="22" x="28800" y="768" width="256" height="256" rotation="180"/>
-  <object id="1347" type="enemy" gid="53" x="512" y="1664" width="110" height="141"/>
+  <object id="1347" name="hero" type="hero" gid="53" x="512" y="1664" width="110" height="141"/>
   <object id="1348" type="blob" gid="53" x="1152" y="1408" width="110" height="141"/>
   <object id="1350" gid="34" x="6656" y="1792" width="256" height="256">
    <properties>

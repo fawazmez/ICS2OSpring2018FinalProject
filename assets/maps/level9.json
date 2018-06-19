@@ -11754,9 +11754,9 @@
                  "gid":53,
                  "height":141,
                  "id":1347,
-                 "name":"",
+                 "name":"hero",
                  "rotation":0,
-                 "type":"enemy",
+                 "type":"hero",
                  "visible":true,
                  "width":110,
                  "x":512,
@@ -20206,7 +20206,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":2151,
+ "nextobjectid":2152,
  "orientation":"orthogonal",
  "properties":
     {
