@@ -2240,7 +2240,7 @@
   <object id="1412" type="spikes" gid="85" x="15646" y="1540" width="228" height="280"/>
   <object id="1414" type="spikes" gid="85" x="16000" y="1536" width="228" height="280"/>
   <object id="1415" type="spikes" gid="85" x="16384" y="1536" width="228" height="280"/>
-  <object id="1416" type="exit" gid="84" x="16970" y="1540" width="364" height="712"/>
+  <object id="1416" type="exit" gid="84" x="16970" y="1540" width="364" height="426.667"/>
   <object id="1418" type="iceGem" gid="88" x="15488" y="1024" width="101" height="101"/>
   <object id="1419" type="iceGem" gid="88" x="15872" y="896" width="101" height="101"/>
   <object id="1420" type="iceGem" gid="88" x="16256" y="768" width="101" height="101"/>
@@ -2250,7 +2250,7 @@
   <object id="326" name="hero" type="hero" gid="111" x="679.394" y="1534.06" width="282" height="301"/>
   <object id="689" type="blob" gid="82" x="5783.64" y="1285.24" width="193" height="210"/>
   <object id="688" type="blob" gid="82" x="4352" y="1534.06" width="193" height="210"/>
-  <object id="923" name="enemy" type="enemy" gid="4" x="3452.83" y="1535.09" width="129" height="332"/>
+  <object id="923" type="enemy" gid="4" x="3456" y="1536" width="129" height="332"/>
   <object id="447" name="enemy" type="enemy" gid="4" x="1664" y="1534.06" width="129" height="332"/>
   <object id="378" gid="8" x="644" y="2068.73" width="0.01" height="2740">
    <properties>

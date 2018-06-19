@@ -183,15 +183,6 @@ local function onlevel15Release()
 	return true	-- indicates successful touch
 end
 
--- 'onRelease' event listener for level15
-local function onSettingsRelease()
-	
-	-- go to level0.lua scene
-	composer.gotoScene( "scene.settings", { params = {} } )
-	
-	return true	-- indicates successful touch
-end
-
 
 function scene:create( event )
 	local sceneGroup = self.view
@@ -409,31 +400,19 @@ function scene:create( event )
 	level14.x = 1800
 	level14.y = 600
 
-	level15 = widget.newButton{
-		label = "Level 15",
-		fontSize = 48*2,
-		labelColor = { default={ 0, 0, 0 }, over={ 0, 0, 0, 0.5 } },
-		default = "button.png",
-		over = "button-over.png",
-		width = (154*4), 
-		height = (40*4),
-		onRelease = onlevel15Release	-- event listener function
-	}
-	level15.x = 1800
-	level15.y = 800
-
-	settings = widget.newButton{
-		label = "Settings",
-		fontSize = 48*2,
-		labelColor = { default={ 0, 0, 0 }, over={ 0, 0, 0, 0.5 } },
-		default = "button.png",
-		over = "button-over.png",
-		width = (154*4), 
-		height = (40*4),
-		onRelease = onSettingsRelease	-- event listener function
-	}
-	settings.x = 1800
-	settings.y = 1000
+-- level 15 not added by student
+--	level15 = widget.newButton{
+--		label = "Level 15",
+--		fontSize = 48*2,
+--		labelColor = { default={ 0, 0, 0 }, over={ 0, 0, 0, 0.5 } },
+--		default = "button.png",
+--		over = "button-over.png",
+--		width = (154*4), 
+--		height = (40*4),
+--		onRelease = onlevel15Release	-- event listener function
+--	}
+--	level15.x = 1800
+--	level15.y = 800
 
 	
 	
@@ -455,8 +434,7 @@ function scene:create( event )
 	sceneGroup:insert( level12 )
 	sceneGroup:insert( level13 )
 	sceneGroup:insert( level14 )
-	sceneGroup:insert( level15 )
-	sceneGroup:insert( settings )
+	--sceneGroup:insert( level15 )
 end
 
 function scene:show( event )
@@ -541,17 +519,10 @@ function scene:destroy( event )
 	level14:removeSelf()	
 	level14 = nil
 
-	level15:removeSelf()	
-	level15 = nil
+	--level15:removeSelf()	
+	--level15 = nil
 
-	settings:removeSelf()
-	settings = nil
 
-	level16:removeSelf()	
-	level16 = nil
-
-	level17:removeSelf()	
-	level17 = nil
 	
 	--if level0 then
 	--	level0:removeSelf()	-- widgets must be manually removed

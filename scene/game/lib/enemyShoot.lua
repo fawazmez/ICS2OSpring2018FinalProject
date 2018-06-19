@@ -101,6 +101,25 @@ function M.new( instance )
 	-- Shooting time
 	timer.performWithDelay(1000, onShootButton)
 
+	-- Bullets out of bounds
+	local function checkBulletsOutBounds(event)
+	-- variable for the counter
+	local bulletCounter
+
+		if #playerBullet > 0 then
+			for bulletCounter = #playerBullet, 1, -1 do
+				if playerBullet[bulletCounter].x > display.contentWidth + 1000 or playerBullet[bulletCounter].x > display.contentWidth - 1000  then
+					playerBullet[bulletCounter]:removeSelf()
+					playerBullet[bulletCounter] = nil
+					table.remove(playerBullet, bulletCounter)
+				end
+			end
+		end
+	end
+
+	-- Event listener
+	Runtime:addEventListener('enterFrame', checkBulletsOutBounds)
+
 	function instance:die()
 		audio.play( sounds.sword )
 		self.isFixedRotation = false

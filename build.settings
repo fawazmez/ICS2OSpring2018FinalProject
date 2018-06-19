@@ -14,9 +14,12 @@ settings = {
 
 	android =
 	{
+		--<strong>usesExpansionFile = true</strong>,
 		usesPermissions =
 		{
-			--"android.permission.INTERNET",
+			"android.permission.INTERNET",
+			"com.android.vending.CHECK_LICENSE",
+			"android.permission.WRITE_EXTERNAL_STORAGE",
 		},
 	},
     
@@ -25,6 +28,7 @@ settings = {
         xcassets = "Images.xcassets",
         plist =
         {
+            UIStatusBarHidden = false,
             UILaunchStoryboardName = "LaunchScreen",
         },
     },
@@ -66,4 +70,22 @@ settings = {
 		-- On tvOS, exclude all Android icon files and .ogg files
 		tvos = { "Icon-*.png", "*.ogg" },
 	},
+	--
+	-- Project section
+	--
+     -- Exclude some files for different targets
+    excludeFiles =
+    {
+        --all     = {"*@4x.*"},
+        iphone  = {
+                   "Icon-xxxhdpi.png", "Icon-xxhdpi.png", "Icon-xhdpi.png", "Icon-hdpi.png", "Icon-mdpi.png", "Icon-ldpi.png",
+                   "Icon-osx.icns",
+                   "*.ogg"
+                  },
+        android = {
+                   "Icon.png", "Icon@2x.png", "Icon-Small-40.png", "Icon-Small-40@2x.png", "Icon-60.png", "Icon-60@2x.png", "Icon-72.png", "Icon-72@2x.png", "Icon-76.png", "Icon-76@2x.png", "Icon-Small-50.png", "Icon-Small-50@2x.png", "Icon-Small.png", "Icon-Small@2x.png", "Default-568h@2x.png", "Icon-Small@3x.png", "Icon-60@3x.png",
+                   "Icon-osx.icns",
+                   "*.aac"
+                  }
+    },
 }

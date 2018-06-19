@@ -19,6 +19,7 @@ function M.new( instance )
 	end
 
 	function instance:collision( event )
+
 		local phase, other = event.phase, event.other
 		if phase == "began" and other.name == "hero" and not other.isDead then
 			other:hurt()

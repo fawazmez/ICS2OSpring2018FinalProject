@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="100" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="680">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="100" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="680">
  <tileset firstgid="1" name="summer" tilewidth="282" tileheight="301" tilecount="31" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -1003,7 +1003,7 @@
    </properties>
   </object>
   <object id="312" type="exit" gid="105" x="10752" y="1408" width="640" height="768"/>
-  <object id="322" name="boarder" gid="34" x="1024" y="1408" width="326" height="1405">
+  <object id="322" name="boarder" gid="34" x="1024" y="1408" height="1405">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" type="float" value="1"/>
@@ -1378,7 +1378,7 @@
     <property name="friction" type="float" value="1"/>
    </properties>
   </object>
-  <object id="539" name="boarder" gid="34" x="11543" y="1397.5" width="326" height="1405">
+  <object id="539" name="boarder" gid="34" x="11543" y="1397.5" height="1405">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" type="float" value="1"/>
@@ -1517,7 +1517,7 @@
  <objectgroup name="forground">
   <object id="55" name="hero" type="hero" gid="20" x="1024" y="1408" width="282" height="301"/>
   <object id="278" name="blob" type="blob" gid="38" x="2944" y="1408" width="120" height="191"/>
-  <object id="314" name="blob" type="blob" gid="57" x="2564.67" y="1057.67" width="114" height="155"/>
+  <object id="314" name="blob" type="blob" gid="57" x="2688" y="1024" width="114" height="155"/>
   <object id="317" type="spikes" gid="145" x="3456" y="1408" width="128" height="32"/>
   <object id="318" type="spikes" gid="145" x="3328" y="1408" width="128" height="32"/>
   <object id="319" type="spikes" gid="145" x="3200" y="1408" width="128" height="32"/>
@@ -1530,7 +1530,7 @@
    </properties>
   </object>
   <object id="550" type="coin" gid="111" x="2584.67" y="882" width="64" height="64"/>
-  <object id="551" gid="111" x="2584" y="882" width="64" height="64"/>
+  <object id="551" type="coin" gid="111" x="2584" y="882" width="64" height="64"/>
   <object id="552" type="coin" gid="111" x="3254" y="766" width="64" height="64"/>
   <object id="553" type="coin" gid="111" x="3618" y="468" width="64" height="64"/>
   <object id="554" name="blob" type="blob" gid="48" x="3645" y="400.333" width="260" height="134"/>
