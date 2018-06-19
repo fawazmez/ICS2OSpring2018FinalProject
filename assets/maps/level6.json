@@ -4427,8 +4427,8 @@
                  "type":"",
                  "visible":true,
                  "width":278.857,
-                 "x":8569.94424242424,
-                 "y":1123.1496969697
+                 "x":8569.94,
+                 "y":1123.15
                 }, 
                 {
                  "gid":91,
@@ -4693,8 +4693,8 @@
                  "type":"blob",
                  "visible":true,
                  "width":90,
-                 "x":9117.5503030303,
-                 "y":764.681696969697
+                 "x":9117.55,
+                 "y":764.682
                 }, 
                 {
                  "gid":100,
@@ -5546,7 +5546,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":11.5758,
+                 "width":0,
                  "x":12566.3,
                  "y":2937.75
                 }, 
@@ -5618,7 +5618,7 @@
                 }, 
                 {
                  "gid":1,
-                 "height":1915.87757575758,
+                 "height":1915.88,
                  "id":1392,
                  "name":"boarder",
                  "properties":
@@ -5634,13 +5634,13 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":3.87878181818184,
-                 "x":478.211909090909,
+                 "width":0,
+                 "x":478.212,
                  "y":1923.64
                 }, 
                 {
                  "gid":106,
-                 "height":14.1818181818182,
+                 "height":14.1818,
                  "id":1397,
                  "name":"",
                  "properties":
@@ -5656,9 +5656,9 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":35.3939393939399,
-                 "x":9029.68181818182,
-                 "y":766.19696969697
+                 "width":35.3939,
+                 "x":9029.68,
+                 "y":766.197
                 }, 
                 {
                  "gid":106,
@@ -5679,8 +5679,8 @@
                  "type":"",
                  "visible":true,
                  "width":35.3939,
-                 "x":9267.30305,
-                 "y":766.9091
+                 "x":9267.3,
+                 "y":766.909
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -6361,7 +6361,7 @@
  "nextobjectid":1399,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.1.2",
+ "tiledversion":"1.1.5",
  "tileheight":128,
  "tilesets":[
         {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="100" height="23" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="1399">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="100" height="23" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d6f7ff" nextobjectid="1399">
  <tileset firstgid="1" name="background" tilewidth="1024" tileheight="768" tilecount="1" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -1734,7 +1734,7 @@
   <object id="1344" gid="19" x="3584" y="2432" width="128" height="140"/>
   <object id="1345" gid="19" x="3968" y="2432" width="128" height="136"/>
   <object id="1346" gid="19" x="3968" y="2560" width="128" height="136"/>
-  <object id="1385" name="boarder" gid="59" x="12566.3" y="2937.75" width="11.5758" height="2869.36">
+  <object id="1385" name="boarder" gid="59" x="12566.3" y="2937.75" height="2869.36">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" type="float" value="1"/>
@@ -1758,7 +1758,7 @@
     <property name="friction" value="1.0"/>
    </properties>
   </object>
-  <object id="1392" name="boarder" gid="1" x="478.212" y="1923.64" width="3.87878" height="1915.88">
+  <object id="1392" name="boarder" gid="1" x="478.212" y="1923.64" height="1915.88">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" value="1.0"/>
