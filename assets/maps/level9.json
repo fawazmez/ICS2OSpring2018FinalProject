@@ -8,7 +8,7 @@
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -30,7 +30,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -202,7 +202,7 @@
                  "visible":true,
                  "width":256,
                  "x":1024,
-                 "y":1664
+                 "y":1536
                 }, 
                 {
                  "gid":13,
@@ -474,7 +474,7 @@
                  "visible":true,
                  "width":357,
                  "x":1664,
-                 "y":640
+                 "y":512
                 }, 
                 {
                  "gid":34,
@@ -508,7 +508,7 @@
                  "visible":true,
                  "width":357,
                  "x":2432,
-                 "y":640
+                 "y":512
                 }, 
                 {
                  "gid":34,
@@ -536,7 +536,7 @@
                  "gid":34,
                  "height":256,
                  "id":360,
-                 "name":"spikes",
+                 "name":"",
                  "properties":
                     {
                      "bodyType":"static",
@@ -548,11 +548,11 @@
                      "friction":"string"
                     },
                  "rotation":0,
-                 "type":"spikes",
+                 "type":"",
                  "visible":true,
                  "width":256,
                  "x":2816,
-                 "y":1664
+                 "y":1536
                 }, 
                 {
                  "gid":13,
@@ -11772,7 +11772,7 @@
                  "visible":true,
                  "width":110,
                  "x":1152,
-                 "y":1408
+                 "y":1280
                 }, 
                 {
                  "gid":34,

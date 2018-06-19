@@ -168,8 +168,8 @@
    <image width="110" height="141" source="../sprites/enemy/springMan_stand.png"/>
   </tile>
  </tileset>
- <objectgroup name="parallax"/>
- <objectgroup name="middleground">
+ <objectgroup name="parallax" visible="0"/>
+ <objectgroup name="middleground" visible="0">
   <object id="326" gid="5" x="0" y="1664" width="280" height="464"/>
  </objectgroup>
  <objectgroup name="forground" offsetx="0" offsety="-8">
@@ -210,7 +210,7 @@
    </properties>
   </object>
   <object id="335" name="spikes" type="spikes" gid="22" x="1024" y="1664" width="256" height="256"/>
-  <object id="336" gid="34" x="1024" y="1664" width="256" height="256">
+  <object id="336" gid="34" x="1024" y="1536" width="256" height="256">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" value="1.0"/>
@@ -271,21 +271,21 @@
     <property name="friction" value="1.0"/>
    </properties>
   </object>
-  <object id="354" name="spikes" type="spikes" gid="7" x="1664" y="640" width="357" height="361"/>
+  <object id="354" name="spikes" type="spikes" gid="7" x="1664" y="512" width="357" height="361"/>
   <object id="357" gid="34" x="1920" y="1408" width="256" height="256">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" value="1.0"/>
    </properties>
   </object>
-  <object id="358" name="spikes" type="spikes" gid="7" x="2432" y="640" width="357" height="361"/>
+  <object id="358" name="spikes" type="spikes" gid="7" x="2432" y="512" width="357" height="361"/>
   <object id="359" gid="34" x="2432" y="1408" width="256" height="256">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" value="1.0"/>
    </properties>
   </object>
-  <object id="360" name="spikes" type="spikes" gid="34" x="2816" y="1664" width="256" height="256">
+  <object id="360" gid="34" x="2816" y="1536" width="256" height="256">
    <properties>
     <property name="bodyType" value="static"/>
     <property name="friction" value="1.0"/>
@@ -1875,7 +1875,7 @@
   <object id="1339" name="spikes" type="spikes" gid="22" x="30336" y="768" width="256" height="256" rotation="180"/>
   <object id="1346" name="spikes" type="spikes" gid="22" x="28800" y="768" width="256" height="256" rotation="180"/>
   <object id="1347" name="hero" type="hero" gid="53" x="512" y="1664" width="110" height="141"/>
-  <object id="1348" type="blob" gid="53" x="1152" y="1408" width="110" height="141"/>
+  <object id="1348" type="blob" gid="53" x="1152" y="1280" width="110" height="141"/>
   <object id="1350" gid="34" x="6656" y="1792" width="256" height="256">
    <properties>
     <property name="bodyType" value="static"/>
